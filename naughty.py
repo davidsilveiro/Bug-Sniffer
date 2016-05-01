@@ -56,8 +56,8 @@ def main():
     """ on by adding 1 onto line_Count.           """
         
             else:
-        	    line_Count += 1
-                pass
+        	line_Count += 1
+
 
     print("Analysis Complete!\n              ")
     print("Would you like to save & report?\n")
@@ -76,7 +76,7 @@ def main():
             print("Saved!")
 
         else:
-        	Ans_Save = 'No'
+            Ans_Save = 'No'
 
         if Ans_Send == 'y':
            ip = raw_input("IP: ")
@@ -84,7 +84,7 @@ def main():
            userPass = raw_input("password: ")
 
         else:
-        	Ans_Send == 'No'
+           Ans_Send == 'No'
 
     except TypeError:
     	print("Another Oops!")
